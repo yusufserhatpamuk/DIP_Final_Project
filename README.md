@@ -31,11 +31,9 @@ This project implements an **anisotropic inpainting engine** designed to improve
 │   ├── baselines.py                # Inpainting baselines (includes Telea, Navier-Stokes, and LaMa)
 │   ├── dataset.py                  # Kodak dataset manager and Bezier scratch generator
 │   └── inpaint_engine.py           # Core proposed Edge-Aware Anisotropic Inpainting Engine
-├── ImageProcessingFinal_New.docx   # Double-column IEEE conference report (Word)
-├── ImageProcessingFinal_New.pdf    # Converted PDF version of the conference report
-├── ImageProcessingFinal_LaTeX.zip  # Zipped LaTeX source files and figures for submission
-├── run_advanced_experiments.py     # Main experiment runner
 ├── deploy_inpaint.py               # CLI tool to run inpainting on custom images
+├── main.py                         # Quick benchmark/test runner (3 images subset)
+├── run_advanced_experiments.py     # Main advanced experiment runner (24 images benchmark suite)
 ├── README.md                       # Repository documentation
 └── requirements.txt                # Python package dependencies
 ```
