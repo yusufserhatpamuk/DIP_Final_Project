@@ -60,7 +60,7 @@ def run_benchmarks():
                 
                 # --- PROPOSED METHOD ---
                 t0 = time.time()
-                res_proposed = engine.inpaint(degraded_img, mask, radius=5, lambda_e=2.0)
+                res_proposed = engine.inpaint(degraded_img, mask, radius=3, lambda_e=2.0)
                 time_proposed = time.time() - t0
                 
                 psnr_t = psnr_metric(orig_img, res_telea)
